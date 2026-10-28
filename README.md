@@ -100,7 +100,7 @@ After you adjusted the settings you can download the *PDF* by pressing the "Gene
 
 Once you downloaded the PDF you should check that it has the correct real-world dimensions ($4.20 \times 6.40$ cm for standard cards, look at image) and also that the PDF is set to A4.
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" style="display: block; width: min(30%, 100px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" style="display: block; width: min(30%, 100px); max-width: 25%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 ### Step 4: download
