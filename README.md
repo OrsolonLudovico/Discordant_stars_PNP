@@ -5,25 +5,12 @@ Stars](https://twilight-imperium.fandom.com/wiki/Discordant_Stars_Expansion_(UNO
 
 ## Premise and disclaimer
 
-Discordant Stars is an **unofficial**, non-commercial **fan project**. It is not
-published, endorsed, sponsored, or otherwise affiliated with Asmodee, Fantasy
-Flight Games, or the creators of *Twilight Imperium*. *Twilight Imperium* and
-its associated names, logos, artwork, and intellectual property belong to
-their respective rights holders. The files and instructions in this repository are provided for personal,
-non-commercial use only.
-They must not be sold, bundled into a commercial product, or presented as
-official material. Please do not redistribute source files or artwork outside
-the channels and terms established by the original creators. Always check the
-current license, community guidelines, and distribution instructions supplied
-with the source files before sharing or printing them.
-Futhermore this guide is made by an independent fan and it is not related to the actual creators of the expansion. Learn more on the dedicated [wiki](https://twilight-imperium.fandom.com/wiki/Discordant_Stars_Expansion_(UNOFFICIAL))
+Discordant Stars is an **unofficial**, non-commercial **fan project**. It is not published, endorsed, sponsored, or otherwise affiliated with Asmodee, Fantasy Flight Games, or the creators of *Twilight Imperium*. *Twilight Imperium* and its associated names, logos, artwork, and intellectual property belong to their respective rights holders. The files and instructions in this repository are provided for personal, non-commercial use only. They must not be sold, bundled into a commercial product, or presented as official material. Please do not redistribute source files or artwork outside the channels and terms established by the original creators. Always check the current license, community guidelines, and distribution instructions supplied
+with the source files before sharing or printing them. Futhermore this guide is made by an independent fan and it is not related to the actual creators of the expansion. Learn more on the dedicated [wiki](https://twilight-imperium.fandom.com/wiki/Discordant_Stars_Expansion_(UNOFFICIAL))
 
 AI has been used to help for the creation of this project.
 
-If you believe that material in this guide has been used improperly, or that a
-credit is missing, please contact me so it can be corrected.
-
-
+If you believe that material in this guide has been used improperly, or that a credit is missing, please contact me so it can be corrected.
 
 ## Table of Contents
 
@@ -174,64 +161,62 @@ Dimensions for the commodities increase tokens are in the image below
    <img src="assets/HexagonLayout/smallsig.png" alt="Commodities extra token size" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
+## Printing and cutting
 
-## Printing
+Here I will explain how to print and cut the printable PDF files obtained before, if you don't have printable PDFs you skipped too much, look [here](#obtaining-printable-files)
 
-250 mg/m2, controlla lelasticità controlla il colore e schiarisci
+### How can I print them? Which materials should I use?
 
-rispiega la roba degli esagoni e la carta
+Printing the files at home is not the best if you don't have a professional printer. I went to a typography owned by a professional so I was able to ask some advice on the materials.
 
-dove andare a stampare
+For the **tokens** and **system tiles** we choose 80g/m² lucid paper, scratch resistant. I glued them on 1cm tick cardboard I bought on Amazon, I needed 15 A4 sheets to create all the tiles.
 
-### Choosing the Materials
-
-Choose materials based on the component type, the finish you want, and the
-equipment available. In general:
-
-- use heavier paper or cardstock for cards, player aids, and reference sheets;
-- use adhesive paper or mounting board when components need extra rigidity;
-- use a matte finish when readability and reduced glare are more important than
-  photographic color;
-- use sleeves when you want to protect printed cards or combine them with
-  cards from the base game.
-
-Always make a small test print first. Check the scale against a base-game
-component before committing to the complete set.
+For the **cards** and **faction sheets** I used 250g/m² paper. Paper with the same weight can have different elasticity levels, I recomand to test it personally againt original faction sheets and cards to select the best one aviable. Even the same type can have different charateristics depending on the lot so be careful and ask a professional. A good wat to start is checking if the height of the paper when put face down on a table is exactly the same as the height of an original card.
 
 ### Printing the Components
 
-Print at **100% scale** or use the document's actual-size setting. Disable
-options such as “Fit to page” unless the source specifically requires them.
-Print one representative page first and verify:
+When printing print at 100% scale, real word measurements, do not press "fit to page". Messing up one setting will cause the backs and front to be misaligned
 
-1. the page size and orientation;
-2. the front-to-back alignment;
-3. the colors and legibility;
-4. the cut lines, margins, and bleed.
+Pay attention to the colors, every printer prints differently so adjust the colors to match the references, I had to reduce all colors intensity by 20% and reduce the red one by 30% to achieve an acceptable result.
 
-After printing, allow ink to dry fully before cutting, mounting, or sleeving
-the components. Store finished pieces by component type and label any
-unfinished batches to avoid mixing versions.
 
 ### Cutting the components
 
 #### Tools Needed
 
-The exact setup depends on the chosen production method. A useful basic kit
-includes:
+- Angle cutter
+- Big scissors
+- Cutting Mat
+- Glue
+- Guilliotine paper cutter
+- Hobby Knife
+- Rulers
 
-- a printer or access to a professional print service;
-- a ruler and pencil for checking scale and marking cuts;
-- a sharp craft knife or paper trimmer;
-- a cutting mat;
-- scissors for rough cuts;
-- adhesive, sleeves, or mounting board as required by the chosen materials;
-- a flat surface and weights for mounting components cleanly.
+#### Cutting
+- Cut the cars using the guilliotine, I do not advise to use one of those paper cutter with a slider (below under the "X"), they tend to suck and tear the paper. A guilliotine may seem less precise but after a couple of minutes cutting correctly will be easy and much faster. 
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/PrintAndcut/Papercutter.jpg" alt="Paper cutter" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+You need to follow the guides on the agngles printed on the cards, evreything outside the area delined by the crosses will be discarted, that is the bleed. In the image you should cut over the dotted lines.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/PrintAndcut/cutDotted.png" alt="Cut over the dotted line" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
 
-Work carefully with sharp tools and adhesives, and follow the safety
-instructions supplied with the equipment.
+#### System tiles and tokens
+
+For best results cut roughly the front of the system tiles and tokens and glue them with normal glue directly on the cardboard. After it dries cut the cardboard accurately with the scissors and you have the front.
+
+For the backs: cut roughly the paper and glue it to the back of the corresponding piece of cardboard. After it dries turn the piece around and trim the edges with an hobby knife
+
+#### Results
+
+It is practically impossible to match the exact colors of the origial cards so a good strategy to hide the defects is to use sleeves. Twilight Imperium's card use 43 $\times$ 65mm sleeves (the cards are smaller but this is the size that fit best). I wasn't able to find non-transparent sleeves so I settled for the standars sapphire ones, which fit well enough and hide some defects.
+
+Here include pictures of the actual results, for example compare action cards colors
 
 
+
+////////////////////////////////////////////////
 
 ## Cover and box
 
@@ -240,3 +225,16 @@ Section under construction
 ## 3D printed insert
 
 Section under construction
+
+## Time and money spent for this porject
+
+Section under construction
+
+Time to build the files
+Time to cut
+
+Printing cost
+Cardboard cost
+Angle cutter cost
+Sleeves cost
+Box cost
