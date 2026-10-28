@@ -65,14 +65,14 @@ To build the layout I used the [layout tool from pnpbuddy](https://pnpbuddy.com/
 Just upload all the fronts and the backs in the dedicated sections, if you put the same number of fronts and backs the application will recognize that every front has a different back, if you put just one back the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons. **WARINING** as mentioned before too many pictures or pictures that are too big may crash the application, try [converting to *JPEG*](#step-2-fix-the-images) or use less images at a time. 
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <figure style="margin: 0; text-align: center;">
+  <div>
     <img src="assets/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
-    <figcaption style="margin-top: 0.5rem;">The cards are uploaded with different backs</figcaption>
-  </figure>
-  <figure style="margin: 0; text-align: center;">
+    <p style="margin: 0.5rem 0 0; text-align: center;">The cards are uploaded with different backs</p>
+  </div>
+  <div>
     <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
-    <figcaption style="margin-top: 0.5rem;">The cards are uploaded with the same back</figcaption>
-  </figure>
+    <p style="margin: 0.5rem 0 0; text-align: center;">The cards are uploaded with the same back</p>
+  </div>
 </div>
 
 #### 3.2 layout settings
