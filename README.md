@@ -99,23 +99,89 @@ After you adjusted the settings you can download the *PDF* by pressing the "Gene
 #### 3.3 Inspecting the PDF
 
 Once you downloaded the PDF you should check that it has the correct real-world dimensions ($4.20 \times 6.40$ cm for standard cards, look at image) and also that the PDF is set to A4.
-<div style="text-align: center; margin: 1rem 0;">
-  <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" style="display: inline-block; width: 5%; max-width: 120px; height: auto;">
+
+<div align="center">
+  <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" width="200">
 </div>
 
-### Step 4: download
+Now check if the backs correspond to the fronts correctly. The image below shows the first two pages side by side; if, in a given row, the top left card of the first page is the front of the top right card on the same row of the second page the process was correct.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/CardsLayout/PlanetsBack&Fronts.png" alt="Correct example of front and back" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
 
+How should you rotate the images? The below example is what you should **NOT** do. Printing this way will results in the backs being upside down. In particular, if the images are horizontal, the front should have its bottom on the left while the top should have its bottom on the right **opposite to eachother**
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/CardsLayout/Mechs.png" alt="An example of ehat you should not do if you don't want your backs upside down" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
 
+Now you're ready to print and cut your layouts, jump to the [printing section](#printing) if you don't need the exagon tiles and the tokens
 
-### Step x: Building the Hexagon layout
-da ora non è più fronte e retro
+### Step 4: Building the Hexagon layout
+The hexagons need to be on tick cardboard and my solution was to print front and back on normal paper and then glue it on cardboard, so no more front and back on the same file.
 
-### Step x+1: Building the tokens Layout
+To realize the exagons templates I used a websiste called [dextorous](https://www.dextrous.com.au/), it has some premium features but I didn't need them. I'll refear to that website for the next section. You need to create an account to start.
+
+#### 4.1 Create the Layout
+Go on *Layouts > new layout > start from empty layout*, press on the exagon and scroll down selecting an exagon. I choose "Hex 3.75 x 3.25 (95.3x82.6mm)" as a starting point but it shouldn't make a difference, now you should see an exagon on your screen
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/HexagonLayout/hexagon.png" alt="The exagon to press" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/Correcthexagon.png" alt="Press after scrolling down" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+
+The exagons of Twilight Imperium are regular exagons (all side has the same lenght) of side ***5.8cm***. This means that if you inscribe such an exagon in a quare you get a square of height 10.046cm (you can approximate to 10.05cm) and width 11.6cm. Let's put this measurements on the app: on the left panel press on positioning, scroll down until you see the measurements in pixels (px). Change the unit of measurements from "px" to "cm" and plug the measurements shown above. You should now have a regular exagon of the right size.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/HexagonLayout/button.png" alt="Button" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/measurements.png" alt="Press after scrolling down" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+
+Now you need to position an image correctly so press on image (1) > look down and press the create a folder icon (2) to create a folder > open the folder > press the add image icon to add an image (3) > click on the image (4) > now the image will be floating in the center.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/HexagonLayout/AddImage.png" alt="Procedure above" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+
+Now you'll need to play with the *custom size* slider and the *Image position* sliders to make the **front** of the image fit the exagon in the center (for the backs you'll need to make anouther layout exaclty the same as the first one but adjusting the image so that the exagon shows the back of the tile).
+
+It should look something like this:
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/HexagonLayout/System.png" alt="Example of a system" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+
+#### 4.2 Populate the layout
+
+Now we need to populate the layout with the actual fronts of the system tiles.
+
+First tou'll need to add the system images to the folder yo've created before so go on Home > Images > select the folder > upload everything
+
+To fill the layout you need a project: Home > Create a new peoject > create a new component > link the exagon layout you've created before, you should already have an exagon filled. Now press on the plus icon to spawn new exagons. From the table below change the image for each exagon until you have all the system tiles.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/HexagonLayout/populate.png" alt="Example of a populated layout" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+
+#### 4.3 Export the Layout
+
+From the previous screen press export and you'll see an export screen: on *Page setup* leave all as default amd press ecport. Now press Export > PDF - Chrome printer > be sure to follow the direction that the pop-up will give you > save as PDF.
+
+Now you have a printable PDF, of course check the actual dimensions with a virtual ruler before printing, as you did in [a previous step](#33-inspecting-the-pdf)
+
+### Step 5: Building the tokens Layout
+
+I didn't bother printing every single faction-specific command and control token, it would be tedious and also expensive. I printed only the special tokens. To print them you'll need to build new layouts, most of them will be simply circles so you can use the circle preset.
+
+Circle tokens dimensions are either 3.1cm or 1.8cm od diameter
+
+Dimensions for the commodities increase tokens are in the image below
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/HexagonLayout/smallsig.png" alt="Commodities extra token size" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
 
 
 ## Printing
 
 250 mg/m2, controlla lelasticità controlla il colore e schiarisci
+
+rispiega la roba degli esagoni e la carta
+
+dove andare a stampare
 
 ### Choosing the Materials
 
@@ -164,3 +230,13 @@ includes:
 
 Work carefully with sharp tools and adhesives, and follow the safety
 instructions supplied with the equipment.
+
+
+
+## Cover and box
+
+Section under construction
+
+## 3D printed insert
+
+Section under construction
