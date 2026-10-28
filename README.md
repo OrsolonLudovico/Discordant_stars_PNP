@@ -46,7 +46,14 @@ credit is missing, please contact me so it can be corrected.
 
 The latest discordant files source files can be found in the [official Google drive folder](https://drive.google.com/drive/folders/1AipLLvGhyp2v--w2oeT7uQIovmH_HyVn).The most updated version of all the files will always be stored there. 
 
-If you want you can directly download all the files (already converted into printable PDFs) from the [releases section](https://github.com/OrsolonLudovico/Discordant_stars_PNP/releases/) but **THEY HAVE SOME ISSUES**, mainly the back of some cards is upside down with respect to the front (this doesn't affect gameplay but it's not the correct way to do it). Also some assets are a little bit blurry (nothing too severe). You can learn how to prepare your own layout by reading this guide but if you choose to use those files you can jump directly to [Printing](#printing).
+If you want you can directly download all the files (already converted into printable PDFs) from the [releases section](https://github.com/OrsolonLudovico/Discordant_stars_PNP/releases/) but THEY HAVE **SOME ISSUES**:
+- The back of some cards is upside down with respect to the front (this doesn't affect gameplay but it's not the correct way to do it).
+
+- Some assets are a little bit blurry (nothing too severe). 
+
+- The faction sheets have some ugly angles.
+
+You can learn how to prepare your own layout by reading this guide but if you choose to use those files you can jump directly to [Printing](#printing).
 
 ### Step 2: Fix the images
 
@@ -56,7 +63,7 @@ If you want you can directly download all the files (already converted into prin
 
 - Twilight Imperium cards are exactly $4.20 \times 6.40$ cm this means that the proportion is $ 4.2 \div 6.4 = \frac{21}{32}$. Some images are $\frac{1}{24} = 2 \times \frac{1}{48}$, to remove the excess $\frac{1}{24}$ from both sides you can uses the provided [python script](Scripts/tighten%201%20out%20of%2024.py).
 
-### Step 3: Build the layout
+### Step 3: Building the cards layout
 
 To build the layout I used the [layout tool from pnpbuddy](https://pnpbuddy.com/layout/) which is a free online tool with no dowload or account requirement; this guide will use that website as reference.
 
@@ -65,43 +72,44 @@ To build the layout I used the [layout tool from pnpbuddy](https://pnpbuddy.com/
 Just upload all the fronts and the backs in the dedicated sections, if you put the same number of fronts and backs the application will recognize that every front has a different back, if you put just one back the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons. **WARINING** as mentioned before too many pictures or pictures that are too big may crash the application, try [converting to *JPEG*](#step-2-fix-the-images) or use less images at a time. 
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <div>
-    <img src="assets/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
-    <p style="margin: 0.5rem 0 0; text-align: center;">The cards are uploaded with different backs</p>
-  </div>
-  <div>
-    <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
-    <p style="margin: 0.5rem 0 0; text-align: center;">The cards are uploaded with the same back</p>
-  </div>
+  <img src="assets/CardsLayout/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+  <img src="assets/CardsLayout/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 #### 3.2 layout settings
 
 Now you have to choose the settings:
 
-- **Paper size** is whatever you want, A4 will be the easiest but it doesn't matter: the tool will automatically fit as much cars as it can in whatever size you choose (vertical and horizontal is also not important so do as you prefear).
+- **PAPER SIZE** is whatever you want, A4 will be the easiest but it doesn't matter: the tool will automatically fit as much cars as it can in whatever size you choose (vertical and horizontal is also not important so do as you prefear).
 
-- As mentioned before **card size** is $4.20 \times 6.40$ cm so you should use *width = 42* and *heigt = 64*. If you're working on the faction sheets you should put they're measurements which are $19.00 \times 27.90$ cm, also experiment with the page orientation if you get an error.
+- As mentioned before **CARD SIZE** is $4.20 \times 6.40$ cm so you should use *width = 42* and *heigt = 64*. If you're working on the faction sheets you should put they're measurements which are $19.00 \times 27.90$ cm, also experiment with the page orientation if you get an error.
 
-<figure style="margin: 1rem auto; text-align: center;">
-  <img src="assets/LayoutSettings.png" alt="Examples of settings" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
-  <figcaption style="margin-top: 0.5rem;">Example of settings, the most important variables are highlighted</figcaption>
-</figure>
+- The **BLEED** is the amount of the images that should be outside the actual cards, in every image provided there is some bleed. For the cards in the [Uncharted Space folder](https://drive.google.com/drive/folders/1XAE7tO037fEPtYUDFTCLNXh8tp_fmXJU) and the faction sheets the bleed is *3mm* while for the rest of the cards the bleed is usually around *3.8mm* (the folders differ a bit). You should experiment, look at the results and figure out if the actual cards contain the images correctly.
 
-#### 3.1 Uploading images
+- The **CROSSAIR** is teh guide that will help you cut the cards once printed, you can use the parameters that you prefear, be careful that if the crossair is too bug you risk for part of it to be left on the card once you do the cat. I used a *width* of 0.1 and a *Size* of 3 as in the picture
 
-#### 3.1 Uploading images
+- The **BORDERS** should always be of *width 1*: they decide how much space there is between cards, you'll need a bit of space but too much and you're wasting paper. The radious is mostly fine at *3mm* (*Size "S"*) but **BE CAREFUL**, you need to remove the radious compleetly while woking on the faction sheets or you'll have ugly angles. The Color can be what you want but black helps if you miss-cut because it doesn't stick out usually.
 
-### Step 1: download
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/CardsLayout/LayoutSettings.png" alt="Examples of settings" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
 
-### Step 1: download
+After you adjusted the settings you can download the *PDF* by pressing the "Generate PDF" button
 
-### Step x: What about the exagon tiles?
+#### 3.3 Inspecting the PDF
 
-#### Uncharted Space
+Once you downloaded the PDF you should check that it has the correct real-world dimensions ($4.20 \times 6.40$ cm for standard cards, look at image) and also that the PDF is set to A4.
 
-**Uncharted Space** is a stand alone expansion that adds new systems along side new exploration and action cards; it is included inside the 
-broad Discordant stars expansion in the [dedicated folder](https://drive.google.com/drive/folders/1XAE7tO037fEPtYUDFTCLNXh8tp_fmXJU) on the drive.  Generally the files present in this folder are easier to handle than the rest and require less human intervention.
+<img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" align="right" width="120" style="margin: 0 0 0.75rem 1rem;">
+
+### Step 4: download
+
+
+
+### Step x: Building the Hexagon layout
+da ora non è più fronte e retro
+
+### Step x+1: Building the tokens Layout
 
 
 ## Printing
