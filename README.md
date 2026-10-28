@@ -65,8 +65,8 @@ To build the layout I used the [layout tool from pnpbuddy](https://pnpbuddy.com/
 Just upload all the fronts and the backs in the dedicated sections, if you put the same number of fronts and backs the application will recognize that every front has a different back, if you put just one back the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <img src="assets/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-  <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+  <img src="assets/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+  <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 ### Step 1: download
