@@ -69,6 +69,16 @@ Just upload all the fronts and the backs in the dedicated sections, if you put t
   <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
+#### 3.2 layout settings
+
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+   <img src="assets/LayoutSettings.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+</div>
+
+#### 3.1 Uploading images
+
+#### 3.1 Uploading images
+
 ### Step 1: download
 
 ### Step 1: download
