@@ -1,11 +1,26 @@
+"""
+Usage:
+    1. Set SOURCE_FOLDER and DESTINATION_FOLDER below.
+    2. From the repository root, run:
+           python "Scripts/tighten 1 out of 24.py"
+
+This script recursively finds supported image files in SOURCE_FOLDER and
+recreates their folder structure under DESTINATION_FOLDER. Each image is
+cropped by removing approximately 1/48 of its width from both the left and
+right edges. The original files are not changed; processed images are written
+to the destination, with JPEG transparency converted to a white-compatible
+RGB image when necessary. A progress summary reports successful and failed
+files.
+"""
+
 import os
 from PIL import Image
 
 
 # This script trims 1/48 of an image's width from both sides and saves the
 # processed files in a separate directory while preserving the folder tree.
-SOURCE_FOLDER = r""
-DESTINATION_FOLDER = r""
+SOURCE_FOLDER = r"/SOURCE_FOLDER_PATH"
+DESTINATION_FOLDER = r"/DESTINATION_FOLDER_PATH"
 
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff")
 

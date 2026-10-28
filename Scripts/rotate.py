@@ -1,3 +1,19 @@
+"""
+Usage:
+    From the repository root, run:
+        python "Scripts/rotate.py"
+    When prompted, enter the folder containing the images, then choose the
+    rotation with the arrow keys and press Enter.
+
+This script recursively searches the selected folder for common image formats
+and rotates only images that are wider than they are tall. It asks whether to
+rotate them 90 degrees clockwise or counterclockwise, preserves the folder's
+files in place, and retains EXIF data when possible. Each replacement is
+written through a temporary file so an unsuccessful save does not partially
+overwrite the original; unreadable or unsupported files are reported and
+skipped.
+"""
+
 from pathlib import Path
 import msvcrt
 import os

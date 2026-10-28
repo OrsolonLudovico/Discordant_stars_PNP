@@ -1,3 +1,17 @@
+"""
+Usage:
+    1. Set source_folder and destination_folder below.
+    2. From the repository root, run:
+           python "Scripts/convert to jpeg.py"
+
+This script recursively copies existing JPEG files and converts PNG files to
+JPEG files in a separate destination tree that mirrors the source folders.
+PNG transparency is composited onto a white background before conversion, so
+the resulting JPEGs have a valid opaque RGB format. It keeps a count of
+converted files, copied files, and conversion errors, and reports progress
+without modifying the source images.
+"""
+
 import os
 import shutil
 from PIL import Image
