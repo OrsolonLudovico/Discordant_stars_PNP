@@ -59,8 +59,8 @@ To build the layout I used the [layout tool from pnpbuddy](https://pnpbuddy.com/
 Just upload all the fronts and the backs in the dedicated sections, if you put the same number of fronts and backs the application will recognize that every front has a different back, if you put just one back the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons. **WARINING** as mentioned before too many pictures or pictures that are too big may crash the application, try [converting to *JPEG*](#step-2-fix-the-images) or use less images at a time. 
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <img src="assets/CardsLayout/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-  <img src="assets/CardsLayout/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+  <img src="assets/CardsLayout/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: clamp(150px, 93vw, 700px); max-width: 100%; height: auto;">
+  <img src="assets/CardsLayout/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: clamp(150px, 93vw, 700px); max-width: 100%; height: auto;">
 </div>
 
 #### 3.2 layout settings
@@ -78,7 +78,7 @@ Now you have to choose the settings:
 - The **BORDERS** should always be of *width 1*: they decide how much space there is between cards, you'll need a bit of space but too much and you're wasting paper. The radious is mostly fine at *3mm* (*Size "S"*) but **BE CAREFUL**, you need to remove the radious compleetly while woking on the faction sheets or you'll have ugly angles. The Color can be what you want but black helps if you miss-cut because it doesn't stick out usually.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/LayoutSettings.png" alt="Examples of settings" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/CardsLayout/LayoutSettings.png" alt="Examples of settings" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 After you adjusted the settings you can download the *PDF* by pressing the "Generate PDF" button
@@ -87,18 +87,18 @@ After you adjusted the settings you can download the *PDF* by pressing the "Gene
 
 Once you downloaded the PDF you should check that it has the correct real-world dimensions ($4.20 \times 6.40$ cm for standard cards, look at image) and also that the PDF is set to A4.
 
-<div align="center">
-  <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" width="200">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
+  <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" style="display: block; width: clamp(100px, 27vw, 200px); height: auto;">
 </div>
 
 Now check if the backs correspond to the fronts correctly. The image below shows the first two pages side by side; if, in a given row, the top left card of the first page is the front of the top right card on the same row of the second page the process was correct.
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/PlanetsBack&Fronts.png" alt="Correct example of front and back" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/CardsLayout/PlanetsBack&Fronts.png" alt="Correct example of front and back" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 How should you rotate the images? The below example is what you should **NOT** do. Printing this way will results in the backs being upside down. In particular, if the images are horizontal, the front should have its bottom on the left while the top should have its bottom on the right **opposite to eachother**
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/Mechs.png" alt="An example of ehat you should not do if you don't want your backs upside down" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/CardsLayout/Mechs.png" alt="An example of ehat you should not do if you don't want your backs upside down" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 Now you're ready to print and cut your layouts, jump to the [printing section](#printing) if you don't need the exagon tiles and the tokens
@@ -111,26 +111,26 @@ To realize the exagons templates I used a websiste called [dextorous](https://ww
 #### 4.1 Create the Layout
 Go on *Layouts > new layout > start from empty layout*, press on the exagon and scroll down selecting an exagon. I choose "Hex 3.75 x 3.25 (95.3x82.6mm)" as a starting point but it shouldn't make a difference, now you should see an exagon on your screen
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/hexagon.png" alt="The exagon to press" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-   <img src="assets/HexagonLayout/Correcthexagon.png" alt="Press after scrolling down" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/hexagon.png" alt="The exagon to press" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/Correcthexagon.png" alt="Press after scrolling down" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 The exagons of Twilight Imperium are regular exagons (all side has the same lenght) of side ***5.8cm***. This means that if you inscribe such an exagon in a quare you get a square of height 10.046cm (you can approximate to 10.05cm) and width 11.6cm. Let's put this measurements on the app: on the left panel press on positioning, scroll down until you see the measurements in pixels (px). Change the unit of measurements from "px" to "cm" and plug the measurements shown above. You should now have a regular exagon of the right size.
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/button.png" alt="Button" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-   <img src="assets/HexagonLayout/measurements.png" alt="Press after scrolling down" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/button.png" alt="Button" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/measurements.png" alt="Press after scrolling down" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 Now you need to position an image correctly so press on image (1) > look down and press the create a folder icon (2) to create a folder > open the folder > press the add image icon to add an image (3) > click on the image (4) > now the image will be floating in the center.
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/AddImage.png" alt="Procedure above" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/AddImage.png" alt="Procedure above" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 Now you'll need to play with the *custom size* slider and the *Image position* sliders to make the **front** of the image fit the exagon in the center (for the backs you'll need to make anouther layout exaclty the same as the first one but adjusting the image so that the exagon shows the back of the tile).
 
 It should look something like this:
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/System.png" alt="Example of a system" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/System.png" alt="Example of a system" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 #### 4.2 Populate the layout
@@ -141,7 +141,7 @@ First tou'll need to add the system images to the folder yo've created before so
 
 To fill the layout you need a project: Home > Create a new peoject > create a new component > link the exagon layout you've created before, you should already have an exagon filled. Now press on the plus icon to spawn new exagons. From the table below change the image for each exagon until you have all the system tiles.
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/populate.png" alt="Example of a populated layout" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/populate.png" alt="Example of a populated layout" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 #### 4.3 Export the Layout
@@ -158,7 +158,7 @@ Circle tokens dimensions are either 3.1cm or 1.8cm od diameter
 
 Dimensions for the commodities increase tokens are in the image below
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/smallsig.png" alt="Commodities extra token size" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/HexagonLayout/smallsig.png" alt="Commodities extra token size" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 ## Printing and cutting
@@ -195,11 +195,11 @@ Pay attention to the colors, every printer prints differently so adjust the colo
 #### Cutting
 - Cut the cars using the guilliotine, I do not advise to use one of those paper cutter with a slider (below under the "X"), they tend to suck and tear the paper. A guilliotine may seem less precise but after a couple of minutes cutting correctly will be easy and much faster. 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/Papercutter.jpg" alt="Paper cutter" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/PrintAndcut/Papercutter.jpg" alt="Paper cutter" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 You need to follow the guides on the agngles printed on the cards, evreything outside the area delined by the crosses will be discarted, that is the bleed. In the image you should cut over the dotted lines.
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/cutDotted.png" alt="Cut over the dotted line" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+   <img src="assets/PrintAndcut/cutDotted.png" alt="Cut over the dotted line" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
 </div>
 
 #### System tiles and tokens
