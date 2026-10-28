@@ -62,18 +62,31 @@ To build the layout I used the [layout tool from pnpbuddy](https://pnpbuddy.com/
 
 #### 3.1 Uploading images
 
-Just upload all the fronts and the backs in the dedicated sections, if you put the same number of fronts and backs the application will recognize that every front has a different back, if you put just one back the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons.
+Just upload all the fronts and the backs in the dedicated sections, if you put the same number of fronts and backs the application will recognize that every front has a different back, if you put just one back the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons. **WARINING** as mentioned before too many pictures or pictures that are too big may crash the application, try [converting to *JPEG*](#step-2-fix-the-images) or use less images at a time. 
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <img src="assets/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-  <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(30%, 150px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
+  <figure style="margin: 0; text-align: center;">
+    <img src="assets/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
+    <figcaption style="margin-top: 0.5rem;">The cards are uploaded with different backs</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="assets/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: min(100%, 420px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
+    <figcaption style="margin-top: 0.5rem;">The cards are uploaded with the same back</figcaption>
+  </figure>
 </div>
 
 #### 3.2 layout settings
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/LayoutSettings.png" alt="Example of uploading the cards with different backs" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+Now you have to choose the settings:
+
+- **Paper size** is whatever you want, A4 will be the easiest but it doesn't matter: the tool will automatically fit as much cars as it can in whatever size you choose (vertical and horizontal is also not important so do as you prefear).
+
+- As mentioned before **card size** is $4.20 \times 6.40$ cm so you should use *width = 42* and *heigt = 64*. If you're working on the faction sheets you should put they're measurements which are $19.00 \times 27.90$ cm, also experiment with the page orientation if you get an error.
+
+<figure style="margin: 1rem auto; text-align: center;">
+  <img src="assets/LayoutSettings.png" alt="Examples of settings" style="display: block; width: min(50%, 300px); max-width: 100%; height: auto; border-radius: 10px; margin: 0 auto;">
+  <figcaption style="margin-top: 0.5rem;">Example of settings, the most important variables are highlighted</figcaption>
+</figure>
 
 #### 3.1 Uploading images
 
@@ -90,21 +103,6 @@ Just upload all the fronts and the backs in the dedicated sections, if you put t
 **Uncharted Space** is a stand alone expansion that adds new systems along side new exploration and action cards; it is included inside the 
 broad Discordant stars expansion in the [dedicated folder](https://drive.google.com/drive/folders/1XAE7tO037fEPtYUDFTCLNXh8tp_fmXJU) on the drive.  Generally the files present in this folder are easier to handle than the rest and require less human intervention.
 
-### Adapting the Files Using the Script
-
-The `Scripts` folder contains small utilities for common preparation tasks,
-including rotation, image conversion, and tightening the layout. The scripts
-are:
-
-- `rotate.py` — rotates source images when their orientation needs correcting;
-- `convert to jpeg.py` — converts compatible source images to JPEG;
-- `tighten 1 out of 24.py` — applies the project's layout-tightening workflow.
-
-Run scripts on a duplicate of the source files and inspect the output before
-printing. Keep the original resolution whenever possible, verify that text
-and bleed areas are intact, and confirm the final page dimensions in a PDF or
-image viewer. Script parameters and expected input formats may change as the
-project evolves, so read the script before using it.
 
 ## Printing
 
