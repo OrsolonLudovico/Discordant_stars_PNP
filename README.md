@@ -40,7 +40,7 @@ If you want you can directly download all the files (already converted into prin
 
 - The faction sheets have some ugly angles.
 
-You can learn how to prepare your own layout by reading this guide but if you choose to use those files you can jump directly to [Printing](#printing).
+You can learn how to prepare your own layout by reading this guide but if you choose to use those files you can jump directly to [Printing](#printing-and-cutting).
 
 ### Step 2: Fix the images
 
