@@ -283,7 +283,7 @@ I was able to generate some images with AI and glue them to the top, bottom, and
 I suggest printing the images with an extra 0.5cm on all sides. The printable PDF files are provided [in the dedicated folder](assets/Box/Scaled/); it is designed to work with a box measuring 30 $\times$ 30 $\times$ 8cm, the files have a little extra in every direction to help with box coverage.
 
 <p align="center">
-  <img src="assets/Box/Finished box.jpg" alt="System tiles result" width="400">
+  <img src="assets/Box/Finished box.jpg" alt="System tiles result" width="700">
 </p>
 
 ## 3D printed insert
