@@ -272,8 +272,6 @@ The system tiles are also smoother than the originals, but using *1mm* thick car
 
 ## Cover and box
 
-**/////////// Section not yet completed ///////////**
-
 I planned to build a nice box to hold all the game components. I wanted the box to be stackable on top of the "Prophecy of Kings" and "Thunder's Edge" boxes, and I needed it to fit on my shelves (the expansion boxes have a base of 30 $\times$ 30cm). I decided to buy an empty box from a board game with the measurements I needed; this way, I was sure to get a quality box. I found the empty box of a game called "[Inferno](https://boardgamegeek.com/boardgame/393165/inferno)" cheaply on Vinted. The game is 30 $\times$ 30 $\times$ 8cm, so it was perfect for my needs.
 
 To check the size of a board game box and determine whether it fits your needs, I suggest you `go on [BGG](https://boardgamegeek.com) > find the game you need to check > versions > The version you need to check > and look at "dimensions"`. Here is an [example](https://boardgamegeek.com/boardgameversion/365218/english-edition).
@@ -303,10 +301,11 @@ I spent around 6 hours preparing the files (keep in mind that I didn't have a gu
 The amount I spent on each component is listed below. These are Italian prices from September 2026, so they may differ from the prices of the materials available to you:
 
 - Tools: I had most of the equipment and borrowed the paper cutter. The only thing I bought was the angle cutter for *7€*.
-- Printing cost: *50€*
+- Printing cost: *54€*
 - Cardboard cost: *10€* (for 20 sheets)
 - Box cost: *5€*
-- Sleeves cost: TBD
-- 3D-printed insert: TBD
+- Glue: *5€*
+- Sleeves cost: *TBD*
+- 3D-printed insert: *TBD*
 
-Total: TBD
+Total: *TBD*
