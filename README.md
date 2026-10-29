@@ -62,7 +62,7 @@ You can learn how to prepare your own layout by reading this guide, but if you c
 
 - In the Drive, images are provided in *PNG*, which uses a relatively large amount of storage space and often makes the application used to build the layout crash because of the file size. Converting to *JPG*/*JPEG* significantly decreases the file sizes and makes the layout application less likely to crash. However, converting to *JPG*/*JPEG* (even at 100% quality) may still lead to a slight increase in the overall image "blurriness". To convert a folder to *JPEG* correctly, you can use the provided [Python script](Scripts/convert%20to%20jpeg.py).
 
-- Twilight Imperium cards are exactly $4.20 \times 6.40$ cm. This means that the proportion is $ 4.2 \div 6.4 = \frac{21}{32}$. Some images are $\frac{1}{24} = 2 \times \frac{1}{48}$. To remove the excess $\frac{1}{24}$ from both sides, you can use the provided [Python script](Scripts/tighten%201%20out%20of%2024.py).
+- Twilight Imperium cards are exactly $4.20 \times 6.40$ cm. This means that the proportion is $4.2 \div 6.4 = \frac{21}{32}$ . Some images are $\frac{1}{24} = 2 \times \frac{1}{48}$ . To remove the excess $\frac{1}{24}$ from both sides, you can use the provided [Python script](Scripts/tighten%201%20out%20of%2024.py).
 
 ### Step 3: Building the cards layout
 
