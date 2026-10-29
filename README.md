@@ -1,4 +1,4 @@
-# Discordant Stars — Print-and-Play Guide by a fan
+# Discordant Stars — a Print-and-Play Guide by a fan
 
 A guide written to simplify the process of printing a playable version of the fan-made [Discordant
 Stars](https://twilight-imperium.fandom.com/wiki/Discordant_Stars_Expansion_(UNOFFICIAL)) expansion for [Twilight Imperium: Fourth Edition](https://www.fantasyflightgames.com/productline/twilight-imperium-fourth-edition/).
