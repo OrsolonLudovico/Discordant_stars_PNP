@@ -280,7 +280,7 @@ To check the size of a board game box and determine whether it fits your needs, 
 
 I was able to generate some images with AI and glue them to the top, bottom, and sides of the box I bought. These images are in the [dedicated folder](assets/Box/RawImages/).
 
-I suggest printing the images with an extra 0.5cm on all sides. The printable PDF files are provided [in the dedicated folder](assets/Box/Scaled/); it is designed to work with a box measuring 30 $\times$ 30 $\times$ 8cm.
+I suggest printing the images with an extra 0.5cm on all sides. The printable PDF files are provided [in the dedicated folder](assets/Box/Scaled/); it is designed to work with a box measuring 30 $\times$ 30 $\times$ 8cm, the files have a little extra in every direction to help with box coverage.
 
 /////**[ADD IMAGES OF the FINISHED BOX HERE]** /////
 
