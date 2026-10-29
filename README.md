@@ -72,10 +72,10 @@ To build the layout, I used the [layout tool from pnpbuddy](https://pnpbuddy.com
 
 Just upload all the fronts and backs in the dedicated sections. If you upload the same number of fronts and backs, the application will recognize that every front has a different back; if you upload just one back, the application will recognize that you want all the fronts to have the same back. You'll have a preview below the buttons. **WARNING:** As mentioned before, too many pictures or pictures that are too large may crash the application. Try [converting to *JPEG*](#step-2-fix-the-images) or use fewer images at a time.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <img src="assets/CardsLayout/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" style="display: block; width: clamp(150px, 93vw, 700px); max-width: 100%; height: auto;">
-  <img src="assets/CardsLayout/uploadCardsSame.png" alt="Example of uploading the cards with the same back" style="display: block; width: clamp(150px, 93vw, 700px); max-width: 100%; height: auto;">
-</div>
+<p align="center">
+  <img src="assets/CardsLayout/UploadCardsUniq.png" alt="Example of uploading the cards with different backs" width="150">
+  <img src="assets/CardsLayout/uploadCardsSame.png" alt="Example of uploading the cards with the same back" width="150">
+</p>
 
 #### 3.2 Layout settings
 
@@ -91,9 +91,9 @@ Now you have to choose the settings:
 
 - The **BORDERS** should always have *width 1*: they determine how much space there is between cards. You'll need a bit of space, but too much means wasting paper. The radius is mostly fine at *3mm* (*Size "S"*), but **BE CAREFUL**: you need to remove the radius completely when working on the faction sheets, or you'll have ugly angles. The color can be whatever you want, but black helps if you cut inaccurately because it usually doesn't stand out.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/LayoutSettings.png" alt="Examples of settings" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+<p align="center">
+  <img src="assets/CardsLayout/LayoutSettings.png" alt="Examples of settings" width="300">
+</p>
 
 After adjusting the settings, you can download the *PDF* by pressing the "Generate PDF" button.
 
@@ -101,19 +101,21 @@ After adjusting the settings, you can download the *PDF* by pressing the "Genera
 
 Once you have downloaded the PDF, you should check that it has the correct real-world dimensions ($4.20 \times 6.40$ cm for standard cards; see the image) and that the PDF is set to A4.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-  <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" style="display: block; width: clamp(100px, 27vw, 200px); height: auto;">
-</div>
+<p align="center">
+  <img src="assets/CardsLayout/CardSize.png" alt="Actual size of action card" width="120">
+</p>
 
 Now check whether the backs correspond to the fronts correctly. The image below shows the first two pages side by side; if, in a given row, the top-left card of the first page is the front of the top-right card on the same row of the second page, the process was correct.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/PlanetsBack&Fronts.png" alt="Correct example of front and back" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/CardsLayout/PlanetsBack&Fronts.png" alt="Correct example of front and back" width="300">
+</p>
 
 How should you rotate the images? The example below shows what you should **NOT** do. Printing this way will result in the backs being upside down. In particular, if the images are horizontal, the front should have its bottom on the left, while the top should have its bottom on the right, **opposite to each other**.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/CardsLayout/Mechs.png" alt="An example of ehat you should not do if you don't want your backs upside down" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/CardsLayout/Mechs.png" alt="An example of ehat you should not do if you don't want your backs upside down" width="300">
+</p>
 
 Now you're ready to print and cut your layouts. Jump to the [printing section](#printing) if you don't need the hexagon tiles and tokens.
 
@@ -124,28 +126,32 @@ To create the hexagon templates, I used a website called [Dextrous](https://www.
 
 #### 4.1 Create the Layout
 Go to `Layouts > new layout > start from empty layout > press on the exagon and scroll down selecting an exagon`. I chose "Hex 3.75 x 3.25 (95.3x82.6mm)" as a starting point, but it shouldn't make a difference. You should now see a hexagon on your screen.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/hexagon.png" alt="The exagon to press" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-   <img src="assets/HexagonLayout/Correcthexagon.png" alt="Press after scrolling down" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/HexagonLayout/hexagon.png" alt="The exagon to press" width="300">
+  <img src="assets/HexagonLayout/Correcthexagon.png" alt="Press after scrolling down" width="300">
+</p>
 
 The hexagons in Twilight Imperium are regular hexagons (all sides have the same length) with a side length of ***5.8cm***. This means that if you inscribe such a hexagon in a square, you get a shape with a height of 10.046cm (you can approximate this to 10.05cm) and a width of 11.6cm. Let's enter these measurements in the app: in the left panel, press on positioning and scroll down until you see the measurements in pixels (px). Change the unit of measurement from "px" to "cm" and enter the measurements shown above. You should now have a regular hexagon of the correct size.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/button.png" alt="Button" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-   <img src="assets/HexagonLayout/measurements.png" alt="Press after scrolling down" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/HexagonLayout/button.png" alt="Button" width="300">
+  <img src="assets/HexagonLayout/measurements.png" alt="Press after scrolling down" width="300">
+</p>
 
 Now you need to position an image correctly. `press on image (1) > look down and press the create a folder icon (2) to create a folder > open the folder > press the add image icon to add an image (3) > click on the image (4)` The image will now be floating in the center.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/AddImage.png" alt="Procedure above" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/HexagonLayout/AddImage.png" alt="Procedure above" width="300">
+</p>
 
 Now you'll need to adjust the *custom size* slider and the *Image position* sliders to make the **front** of the image fit the hexagon in the center. For the backs, you'll need to make another layout exactly the same as the first one, but adjust the image so that the hexagon shows the back of the tile.
 
 It should look something like this:
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/System.png" alt="Example of a system" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/HexagonLayout/System.png" alt="Example of a system" width="300">
+</p>
 
 #### 4.2 Populate the layout
 
@@ -154,9 +160,10 @@ Now we need to populate the layout with the actual fronts of the system tiles.
 First, you'll need to add the system images to the folder you've created. Go to `Home > Images > select the folder > upload everything`.
 
 To fill the layout, you need a project: `Home > Create a new peoject > create a new component > link the exagon layout you've created before`. You should already have one hexagon filled. Now `press on the plus icon to spawn new exagons`. From the table below, change the image for each hexagon until you have all the system tiles.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/populate.png" alt="Example of a populated layout" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/HexagonLayout/populate.png" alt="Example of a populated layout" width="300">
+</p>
 
 #### 4.3 Export the Layout
 
@@ -171,9 +178,10 @@ I didn't bother printing every single faction-specific command and control token
 Circle token dimensions are either 3.1cm or 1.8cm in diameter.
 
 Dimensions for the commodities increase tokens are in the image below
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/HexagonLayout/smallsig.png" alt="Commodities extra token size" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/HexagonLayout/smallsig.png" alt="Commodities extra token size" width="300">
+</p>
 
 ## Printing and cutting
 
@@ -208,13 +216,16 @@ Pay attention to the colors: every printer prints differently, so adjust the col
 
 #### Cutting
 - Cut the cards using the guillotine. I do not advise using one of those paper cutters with a slider (shown below under the "X"), as they tend to catch and tear the paper. A guillotine may seem less precise, but after a couple of minutes, cutting accurately will become easy and much faster.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/Papercutter.jpg" alt="Paper cutter" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/PrintAndcut/Papercutter.jpg" alt="Paper cutter" width="300">
+</p>
+
 You need to follow the guides on the angles printed on the cards. Everything outside the area defined by the crosses will be discarded; that is the bleed. In the image, you should cut along the dotted lines.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/cutDotted.png" alt="Cut over the dotted line" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/PrintAndcut/cutDotted.png" alt="Cut over the dotted line" width="300">
+</p>
 
 #### System tiles and tokens
 
@@ -225,15 +236,16 @@ For the backs, roughly cut out the paper and glue it to the back of the correspo
 #### Refining the angles
 
 To cut the angles, you'll need an angle cutter. I bought mine from Amazon; it looks something like this:
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/AngleCutter.png" alt="The angle cutter" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/PrintAndcut/AngleCutter.png" alt="The angle cutter" width="300">
+</p>
 
 I wasn't able to determine the exact radius of the cards' angles. I cut my cards with a radius of *3mm* (as in the picture, the printed card is on the bottom), which is a little too big. If you're able to figure out the exact radius, contact me and I'll edit this page.
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/Angle.jpg" alt="Difference between angles" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+<p align="center">
+  <img src="assets/PrintAndcut/Angle.jpg" alt="Difference between angles" width="300">
+</p>
 
 
 #### Results
@@ -241,19 +253,22 @@ I wasn't able to determine the exact radius of the cards' angles. I cut my cards
 It is practically impossible to match the exact colors of the original cards, so a good strategy for hiding the differences is to use sleeves. Twilight Imperium cards use 43 $\times$ 65mm sleeves (the cards are smaller, but this is the size that fits best). I wasn't able to find non-transparent sleeves, so I settled for the standard sapphire ones, which fit well enough and hide some defects.
 
 Comparison between original and printed cards (the originals are the four on the left).
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/Comparison.jpg" alt="Comparison of the finished cards" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/PrintAndcut/Comparison.jpg" alt="Comparison of the finished cards" width="300">
+</p>
 
 The printed cards do not have a linen texture, so they catch the light differently from the originals, but they otherwise have the same flexibility and are virtually indistinguishable from them by touch with the sleeves on.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/Material.jpg" alt="Comaprison on the materials" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/PrintAndcut/Material.jpg" alt="Comaprison on the materials" width="300">
+</p>
 
 The system tiles are also smoother than the originals, but using *1mm* thick cardboard makes them the exact same size as the original tiles.
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start;">
-   <img src="assets/PrintAndcut/SysTiles.jpg" alt="System tiles result" style="display: block; width: clamp(150px, 40vw, 300px); height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.12);">
-</div>
+
+<p align="center">
+  <img src="assets/PrintAndcut/SysTiles.jpg" alt="System tiles result" width="300">
+</p>
 
 ## Cover and box
 
